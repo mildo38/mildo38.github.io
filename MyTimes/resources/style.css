@@ -1,0 +1,264 @@
+/* Universal styles */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header */
+
+.header {
+  border-bottom-width: thin;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 5px 10px;
+}
+
+.title {
+  color: MediumAquamarine;
+  padding: 0px 5px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav,
+a {
+  padding: 0px 10px;
+}
+
+/* Body */
+
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding-top: 115px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+
+/* First & Largest Column */
+
+.leftcolumn {
+  width: 630px;
+}
+
+#phish div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  background-image: url(story.png);
+}
+
+#phish span {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: block;
+}
+
+#orca {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+#orca h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#burger {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+}
+
+#burger h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#earth div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(fall.png);
+}
+
+#earth span {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: block;
+}
+
+#camera span {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: block;
+}
+
+
+#camera div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(camera.png);
+}
+
+#holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Second & Medium Column */
+
+.middlecolumn {
+  width: 300px;
+  margin: 0px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#fbi {
+
+}
+
+#fbi h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#cats div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(cat.png);
+}
+
+#cats span {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: block;
+}
+
+/* Third & Small Column */
+
+.rightcolumn {
+  width: 240px;
+}
+
+.rightcolumn h4 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#bites {
+  display: flex;
+  flex-flow: wrap column;
+}
+
+#bites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 325px;
+    background-color: MediumAquamarine;
+    margin: auto 0 auto auto;
+    font-family: Verdana;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.logo {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer nav a {
+  color: black;
+}
